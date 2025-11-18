@@ -1,0 +1,14 @@
+task: obb
+path: /home/aic/sar/split  
+train: images/train      
+val: images/val         #test可以用testA 
+test: null                
+names:
+  0: ship
+  1: aircraft
+  2: car
+  3: tank
+  4: bridge
+  5: harbor
+nc: 6
+
